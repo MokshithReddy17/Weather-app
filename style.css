@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color:#fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search  button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top:10px ;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity,.wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+    color: red;
+}
+/* Media Queries */
+
+@media (max-width: 600px) {
+    /* Styles for devices with a width of 600px or less */
+    .card {
+        padding: 8vw 7vw; /* Adjust padding for smaller screens */
+    }
+
+    .search input {
+        padding: 4vw 10vw; /* Adjust padding for smaller screens */
+        height: 12vw; /* Adjust height for smaller screens */
+        margin-right: 0; /* Remove right margin for smaller screens */
+        font-size: 5vw; /* Adjust font size for smaller screens */
+    }
+
+    .search button {
+        width: 20vw; /* Adjust width for smaller screens */
+        height: 20vw; /* Adjust height for smaller screens */
+    }
+
+    .search button img {
+        width: 5vw; /* Adjust image width for smaller screens */
+    }
+
+    .weather-icon {
+        width: 40vw; /* Adjust icon width for smaller screens */
+        margin-top: 10vw; /* Adjust margin for smaller screens */
+    }
+
+    .weather h1 {
+        font-size: 16vw; /* Adjust font size for smaller screens */
+    }
+
+    .weather h2 {
+        font-size: 9vw; /* Adjust font size for smaller screens */
+        margin-top: 2vw; /* Adjust margin for smaller screens */
+    }
+
+    .details {
+        padding: 0 10vw; /* Adjust padding for smaller screens */
+        margin-top: 10vw; /* Adjust margin for smaller screens */
+    }
+
+    .col img {
+        width: 16vw; /* Adjust image width for smaller screens */
+        margin-right: 4vw; /* Adjust margin for smaller screens */
+    }
+
+    .humidity, .wind {
+        font-size: 5vw; /* Adjust font size for smaller screens */
+        margin-top: -1vw; /* Adjust margin for smaller screens */
+    }
+
+    .error {
+        margin-left: 5vw; /* Adjust margin for smaller screens */
+        margin-top: 5vw; /* Adjust margin for smaller screens */
+        font-size: 7vw; /* Adjust font size for smaller screens */
+    }
+}
