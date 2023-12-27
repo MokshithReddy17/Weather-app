@@ -1,0 +1,57 @@
+@media (max-width: 600px) {
+    /* Styles for devices with a width of 600px or less */
+    .card {
+        padding: 8vw 7vw; /* Adjust padding for smaller screens */
+    }
+
+    .search input {
+        padding: 4vw 10vw; /* Adjust padding for smaller screens */
+        height: 12vw; /* Adjust height for smaller screens */
+        margin-right: 0; /* Remove right margin for smaller screens */
+        font-size: 5vw; /* Adjust font size for smaller screens */
+    }
+
+    .search button {
+        width: 20vw; /* Adjust width for smaller screens */
+        height: 20vw; /* Adjust height for smaller screens */
+    }
+
+    .search button img {
+        width: 5vw; /* Adjust image width for smaller screens */
+    }
+
+    .weather-icon {
+        width: 40vw; /* Adjust icon width for smaller screens */
+        margin-top: 10vw; /* Adjust margin for smaller screens */
+    }
+
+    .weather h1 {
+        font-size: 16vw; /* Adjust font size for smaller screens */
+    }
+
+    .weather h2 {
+        font-size: 9vw; /* Adjust font size for smaller screens */
+        margin-top: 2vw; /* Adjust margin for smaller screens */
+    }
+
+    .details {
+        padding: 0 10vw; /* Adjust padding for smaller screens */
+        margin-top: 10vw; /* Adjust margin for smaller screens */
+    }
+
+    .col img {
+        width: 16vw; /* Adjust image width for smaller screens */
+        margin-right: 4vw; /* Adjust margin for smaller screens */
+    }
+
+    .humidity, .wind {
+        font-size: 5vw; /* Adjust font size for smaller screens */
+        margin-top: -1vw; /* Adjust margin for smaller screens */
+    }
+
+    .error {
+        margin-left: 5vw; /* Adjust margin for smaller screens */
+        margin-top: 5vw; /* Adjust margin for smaller screens */
+        font-size: 7vw; /* Adjust font size for smaller screens */
+    }
+}
